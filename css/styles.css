@@ -1,0 +1,193 @@
+body{
+margin: 0;
+}
+
+.header-container{
+    background-color: cornsilk;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid khaki;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.branding img{
+    height: 11vh;
+    width: 14vw;
+    padding: 1em;
+}
+
+.nav-bar{
+    margin-left: 30vw;
+}
+.nav-bar ul{
+    list-style: none;
+}
+
+.nav-bar ul li{
+    display: inline;
+    padding: 1em;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 5vh
+}
+
+.nav-bar ul li a:hover{
+    background-color:  rgb(240, 240, 114);
+    color: cornsilk;
+    border-bottom: 1px solid black;
+    padding: 1vh;
+    
+}
+
+.signup{
+    background-color: rgb(240, 240, 114);
+    color: black;
+    border: 2px solid black;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 20%;
+    font-size: 5vh;
+}
+
+.signup:hover{
+    cursor: pointer;
+    background-color: cornsilk;
+    color: black; 
+}
+
+/* hero-unit styling */
+.hero-unit-container{
+    background: url("../images/herounit.jpg") no-repeat;
+    height: 100vh;
+    
+}
+
+.hero-unit-mask{
+    height: 100vh;
+    background-color: rgb(0,0,0,0.4);
+  
+}
+
+.hero-unit-mask ul{
+    margin: 0;
+    color: rgb(243, 243, 72);
+    
+}
+
+.hero-unit-mask ul{
+    list-style: none;
+}
+
+.hero-unit-mask ul li{
+    padding-top: 1em;
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+/* paper flex container styling */
+.paper{
+    text-align: center;
+}
+.paper-flex-row{
+    padding-top: 4em;
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+    padding-bottom: 5em;
+    
+}
+
+.paper img{
+    height:35vh;
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.paper p{
+    padding-top: 2em;
+    font-size: 5vh;
+    border-bottom: 2px solid black;
+}
+
+/* section with 2 vertical columns */
+.two-columns{
+    padding-top: 5em;
+    display:flex;
+    justify-content: space-around;
+    padding-right: 10em;
+    background-color: rgb(241, 241, 100);
+    padding-bottom: 5em;
+}
+
+.rows ul{
+list-style: none;
+}
+
+.rows ul li{
+
+    color: white;
+    font-size: 5vh;
+    padding:1em;
+}
+
+.rows ul li a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+    }
+
+.rows ul li a:hover{
+    color:whitesmoke;
+
+}
+
+.form-padding{
+
+    padding: 0.5em;
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.size{
+    font-size: 5vh;
+}
+
+/* Footer styling */
+.footer{
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    justify-content: space-around;
+    background-color: cornsilk;
+}
+
+.company ul{
+    list-style: none;
+}
+
+.comapny ul li{
+    padding-bottom: 1em;
+}
+.company ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 4vh;
+
+}
+
+.company ul li a:hover{
+    
+    color: yellow;
+    background-color: black;
+    font-size: 4vh;
+
+}
+
